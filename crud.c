@@ -36,7 +36,7 @@ void menu(){
 
             /* Get the fucking string */
             scanf("%s", &new_entry);
-            fprintf(fp,"%s\n",new_entry);
+            fprintf(fp,"%s\r\n",new_entry);
 
             printf("Entry added on the db\n");
             fclose(fp); /*close de db */
