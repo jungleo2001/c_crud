@@ -34,7 +34,8 @@ void menu(){
             /* File config ma man */
             FILE *fp = fopen(filename, "w");
 
-            fgets(new_entry, MAX_LIMIT, stdin);
+            /* Get the fucking string */
+            scanf("%s", &new_entry);
             fprintf(fp,"%s\n",new_entry);
 
             printf("Entry added on the db\n");
