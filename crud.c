@@ -74,3 +74,5 @@ int main(){
     menu();
     return (0);
 }
+
+//Is creating quite normaly, but now i need to implement new line inputs.
